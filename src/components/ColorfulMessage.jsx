@@ -1,5 +1,6 @@
 import React from "react";
 
+//propsを使った受け取り
 const ColorfulMessage = (props) => {
   const { color, children } = props;
   const contentStyle = {
